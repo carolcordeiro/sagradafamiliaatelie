@@ -1,0 +1,170 @@
+body{
+    background-image: url(../fotos/agulhas3.png);
+    background-repeat: repeat;
+    background-size: 360px;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{    
+    font-size: large;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header{
+    background-color: rgb(255, 229, 82);
+    border-radius: 20px;
+    padding: 5px;
+    margin: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    width: 100%;
+}
+
+.naveg{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+li a{
+    padding: 14px 16px;
+}
+
+nav{
+    background-color: gold;
+    margin: 0px;
+    text-align: center;
+    font-size: 130%;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:link{
+    color: black;
+}
+nav a:visited{
+    color: rgb(95, 49, 6);
+}
+nav a:active{
+    background-color: rgb(192, 99, 12);
+    padding: 5px;
+    color: white;
+    padding: 5px 16px;
+}
+
+footer a{
+    padding: 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:link{
+    color: black;
+}
+footer a:visited{
+    color: rgb(95, 49, 6);
+}
+footer a:active{
+    color: rgb(192, 99, 12);
+}
+
+
+h2{
+    background-color: rgba(255, 217, 0, 0.863);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 5px;
+    margin-top: -5px;
+    margin-left: -20px;
+    margin-right: -20px;
+    text-align: center;
+}
+
+main{
+    background-color: rgba(255, 229, 82, 0.795);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex: 2;
+}
+
+.tituloa{
+    background-color: rgba(255, 217, 0, 0.863);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: -5px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+aside{
+    position: sticky;
+    top:0;
+    background-color: rgba(255, 229, 82, 0.795);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    flex: 1;
+}
+
+article figure{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+figure{
+    margin: 0;
+    display: flex;
+}
+
+aside div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+aside div figure img{
+    background-color: rgb(253 236 140);
+    padding: 0 10%;
+    border-radius: 10px;
+    width: 77%;
+    margin: 3px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items:flex-start;
+}
+
+footer{
+    background-color: gold;
+    margin:0px;
+    padding-left: 40px;
+}

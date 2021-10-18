@@ -1,0 +1,129 @@
+body{
+    background-image: url(../fotos/agulhas3.png);
+    background-repeat: repeat;
+    background-size: 360px;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+header{
+    background-color: rgb(255, 229, 82);
+    border-radius: 20px;
+    padding: 5px;
+    margin: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    width: 100%;
+    
+}
+
+.naveg{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+.naveg li{
+    list-style-type: none;
+}
+
+li a{
+    padding: 14px 16px;
+}
+
+nav{
+    background-color: gold;
+    margin: 0px;
+    text-align: center;
+    font-size: 130%;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:link{
+    color: black;
+}
+nav a:visited{
+    color: rgb(95, 49, 6);
+}
+nav a:active{
+    background-color: rgb(192, 99, 12);
+    padding: 5px;
+    color: white;
+    padding: 5px 16px;
+}
+
+footer a{
+    padding: 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:link{
+    color: black;
+}
+footer a:visited{
+    color: rgb(95, 49, 6);
+}
+footer a:active{
+    color: rgb(192, 99, 12);
+}
+
+h2{
+    background-color: rgba(255, 217, 0, 0.863);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: -20px;
+    margin-right: -20px;
+    text-align: center;
+}
+
+main{
+    background-color: rgba(255, 229, 82, 0.651);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main div div{
+    background-color: rgb(255 242 165);
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    flex: 25%;
+}
+main div div img{
+    width: 100%;
+}
+main div div h3{
+    text-align: center;
+    background-color: rgb(255, 229, 82);
+}
+
+.divp{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color: gold;
+    margin:0px;
+    padding-left: 40px;
+}
