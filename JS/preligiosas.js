@@ -1,5 +1,5 @@
 
-var requestURL = 'https://raw.githubusercontent.com/carolcordeiro/sagradafamiliaatelie/main/preligiosas.json';
+var requestURL = 'https://raw.githubusercontent.com/carolcordeiro/sagradafamiliaatelie/main/JS/preligiosas.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
