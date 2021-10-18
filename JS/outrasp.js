@@ -1,32 +1,32 @@
 let itens = [
-    {"foto": "../fotos/PortaCarteirinha.JPG",
+    {"foto": "fotos/PortaCarteirinha.JPG",
     "titulo": "Porta Carteira de Vacina e Documentos",
     "observacoes": ['100% personalizado' , 
                     'Com vários bolsos internos']},
 
-    {"foto": "../fotos/Case.png",
+    {"foto": "fotos/Case.png",
     "titulo": "Case para livros ou Kindle",
     "observacoes": ['100% personalizado' , 
                     'Tamanho variado', 
                     'Alcochoado']},
 
-    {"foto": "../fotos/Fraldas.JPG",
+    {"foto": "fotos/Fraldas.JPG",
     "titulo": "Fraldas de Boca",
     "observacoes": ['100% personalizado' , 
                     'Tamanho variado']},
 
-    {"foto": "../fotos/mantabebe.png",
+    {"foto": "fotos/mantabebe.png",
     "titulo": "Manta para bebê",
     "observacoes": ['100% personalizado' , 
                     'Alcochoado']},
 
-    {"foto": "../fotos/Capturar3.JPG",
+    {"foto": "fotos/Capturar3.JPG",
     "titulo": "Fraldas de Boca",
     "observacoes": ['100% personalizado' , 
                     'Tamanho variado', 
                     'Com alça para chupeta']},
 
-    {"foto": "../fotos/conjuntocozinha.png",
+    {"foto": "fotos/conjuntocozinha.png",
     "titulo": "Conjunto de cozinha",
     "observacoes": ['100% personalizado' , 
                     'Tamanho variado', 
