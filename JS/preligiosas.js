@@ -1,12 +1,47 @@
+let itens = [
+    {"foto": "../fotos/alfaia ihs.jpg",
+    "titulo": "Kit de Alfaias IHS",
+    "tecido": "Tecido 100% algodão.",
+    "cores": "Bordados em dourado",
+    "peças": ["Pala", "Corporal", 
+              "Sanguíneo", "Manustérgio"]},
 
-var requestURL = 'https://raw.githubusercontent.com/carolcordeiro/sagradafamiliaatelie/main/JS/preligiosas.json';
-var request = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'json';
-request.send();
-request.onload = function() {
-    var itens = request.response;
-  }
+    {"foto": "../fotos/alfaia mariana.jpg",
+    "titulo": "Kit de Alfaias Marianas",
+    "tecido": "Tecido 100% algodão.",
+    "cores": "Bordados em Dourado e Azul",
+    "peças": ["Pala", "Corporal", 
+              "Sanguíneo", "Manustérgio"]},
+
+    {"foto": "../fotos/alfaia cruz.jpg",
+    "titulo": "Kit de Alfaias Cruz",
+    "tecido": "Tecido 100% algodão.",
+    "cores": "Bordados em Dourado, Prata e Branco",
+    "peças": ["Pala", "Corporal", 
+              "Sanguíneo", "Manustérgio"]},
+
+    {"foto": "../fotos/cruz-e.png",
+    "titulo": "Kit de Alfaias Cruz",
+    "tecido": "Tecido 100% algodão.",
+    "cores": "Bordados em Dourado e Prata (Pala)",
+    "peças": ["Pala", "Corporal", 
+              "Sanguíneo", "Manustérgio"]},
+
+    {"foto": "../fotos/cruzsimples.png",
+    "titulo": "Kit de Alfaias Cruz Simples",
+    "tecido": "Tecido 100% algodão.",
+    "cores": "Bordados em Dourado",
+    "peças": ["Pala", "Corporal", 
+              "Sanguíneo", "Manustérgio"]},
+
+    {"foto": "../fotos/trigouva.png",
+    "titulo": "Kit de Alfaias Eucaristia",
+    "tecido": "Tecido 100% algodão.",
+    "cores": "Bordados em Dourado",
+    "peças": ["Pala", "Corporal", 
+              "Sanguíneo", "Manustérgio"]}
+]
+
 
 let divP = document.querySelector('.divp')
 
