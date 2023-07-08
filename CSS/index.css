@@ -4,6 +4,7 @@ body{
     background-size: 360px;
     margin: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #00333d;
 }
 
 p{    
@@ -159,6 +160,11 @@ aside div figure img{
     justify-content: center;
     flex-direction: row;
     align-items:flex-start;
+}
+.topo{
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
 }
 
 footer{

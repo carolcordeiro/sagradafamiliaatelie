@@ -4,6 +4,7 @@ body{
     background-size: 360px;
     margin: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #00333d;
 }
 
 footer ul{
@@ -101,13 +102,14 @@ main{
 
 main div div{
     background-color: #95d0dc;
-    padding: 20px;
-    margin: 5px;
-    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
     flex: 25%;
 }
 main div div img{
     width: 100%;
+    border-radius: 3px;
 }
 main div div h3{
     text-align: center;
@@ -118,6 +120,12 @@ main div div h3{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.topo{
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
 }
 
 footer{
